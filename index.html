@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">PremiumStore</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Login</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Experience Premium Shopping</h1>
+  <p>Apple-style smooth UI + modern shopping</p>
+  <button onclick="go('products.html')">Shop Now</button>
+</section>
+
+<!-- DASHBOARD -->
+<section class="dashboard">
+
+  <div class="card" onclick="go('products.html')">
+    <h2>🛍 Shop Now</h2>
+    <p>Explore latest products</p>
+  </div>
+
+  <div class="card" onclick="go('products.html')">
+    <h2>📦 Categories</h2>
+    <p>Browse categories</p>
+  </div>
+
+  <div class="card" onclick="go('products.html')">
+    <h2>🔥 Trending</h2>
+    <p>Hot selling items</p>
+  </div>
+
+  <div class="card" onclick="go('cart.html')">
+    <h2>🛒 Cart</h2>
+    <p>Your items</p>
+  </div>
+
+  <div class="card" onclick="go('products.html')">
+    <h2>💸 Offers</h2>
+    <p>Discount deals</p>
+  </div>
+
+  <div class="card" onclick="go('login.html')">
+    <h2>👤 Profile</h2>
+    <p>Login / Signup</p>
+  </div>
+
+</section>
+
+<!-- BANNER -->
+<section class="banner">
+  <h2>Flat 50% OFF</h2>
+  <p>Limited time deal</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <p>© 2026 PremiumStore</p>
+    <div class="social">
+      <span>Instagram</span>
+      <span>Twitter</span>
+      <span>Facebook</span>
+    </div>
+  </div>
+</footer>
+
+<button id="topBtn" onclick="topFunction()">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
